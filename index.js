@@ -1,7 +1,5 @@
-"use strict"
-
-var esprima = require("esprima")
-var uniq = require("uniq")
+import * as esprima from "esprima"
+import uniq from "uniq"
 
 var PREFIX_COUNTER = 0
 
@@ -192,4 +190,4 @@ function preprocess(func) {
   return routine
 }
 
-module.exports = preprocess
+export default preprocess

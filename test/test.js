@@ -1,8 +1,7 @@
-"use strict"
+import parse from "../index.js"
+import tape from "tape"
 
-var parse = require("../index.js")
-
-require("tape")("basic tests", function(t) {
+tape("basic tests", function(t) {
 
   var parsed = parse(function(a, b, c) {
     a += b

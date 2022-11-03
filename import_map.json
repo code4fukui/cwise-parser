@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "esprima": "https://code4fukui.github.io/esprima/esprima.js",
+    "uniq": "https://code4fukui.github.io/uniq/uniq.js"
+  }
+}
