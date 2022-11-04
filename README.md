@@ -9,5 +9,9 @@ Install using [npm](https://www.npmjs.com/):
 
     npm install cwise-parser
 
+Or
+
+    deno run demo.js
+
 # License
 (c) 2013 Mikola Lysenko. MIT License.
